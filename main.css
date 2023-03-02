@@ -23,7 +23,7 @@
     height: 100vh;
     overflow: hidden;
     background-color: transparent;
-    cursor: pointer;
+    cursor: auto;
   }
   
   .face {
@@ -36,9 +36,11 @@
     top: 50px;
     left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
   }
   
   .svg-icon {
+    position: absolute;
     width: 30px;
     height: 30px;
   }
@@ -64,6 +66,7 @@
   /***************/
   .radio,
   .shadows {
+    cursor: auto;
     position: absolute;
     width: 26vw;
     height: 6vw;
